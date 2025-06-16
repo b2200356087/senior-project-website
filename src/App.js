@@ -24,13 +24,15 @@ function App() {
       <section>
         <h2>Demo Video</h2>
         <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/watch?v=BT4WzyT2g8k"
-          title="Demo video"
-          frameBorder="0"
-          allowFullScreen
-        />
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/BT4WzyT2g8k"
+  title="Demo video"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+/>
+
       </section>
     </div>
   );
