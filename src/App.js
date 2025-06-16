@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: 20 }}>
+      <h1>Our Senior Project</h1>
+
+      <section>
+        <h2>Downloads</h2>
+        <ul>
+          <li>
+            <a href="/assets/hypergraph_star_coloring.pdf" download>
+              📄 Full write‑up (PDF)
+            </a>
+          </li>
+          <li>
+            <a href="/assets/poster.pdf" download>
+              🖼 Poster (PDF)
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Demo Video</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/watch?v=BT4WzyT2g8k"
+          title="Demo video"
+          frameBorder="0"
+          allowFullScreen
+        />
+      </section>
     </div>
   );
 }
