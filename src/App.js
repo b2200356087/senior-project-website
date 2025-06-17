@@ -9,12 +9,12 @@ function App() {
         <h2>Downloads</h2>
         <ul>
           <li>
-            <a href="public/assets/hypergraph_star_coloring.pdf" download>
+            <a href="/public/assets/hypergraph_star_coloring.pdf" download>
               📄 Full write‑up (PDF)
             </a>
           </li>
           <li>
-            <a href="public/assets/poster.pdf" download>
+            <a href="/public/assets/poster.pdf" download>
               🖼 Poster (PDF)
             </a>
           </li>
