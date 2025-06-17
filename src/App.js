@@ -10,7 +10,8 @@ function App() {
         <ul>
           <li>
           <a
-           href={process.env.PUBLIC_URL + '/assets/hypergraph_star_coloring.pdf'}
+          //  href={process.env.PUBLIC_URL + '/assets/hypergraph_star_coloring.pdf'}
+        href={"https://b2200356087.github.io/senior-project-website/assets/hypergraph_star_coloring.pdf"}
         download>📄 Full write‑up (PDF)
   </a>
           </li>
